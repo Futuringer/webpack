@@ -6,7 +6,7 @@ export const App = () => {
   const increment = () => setCount(prev => prev + 1);
   return (
     <div>
-      <h1>{count}</h1>
+      <h1 className={classes.value}>{count}</h1>
       <button onClick={increment} className={classes.button}>inc</button>
     </div>
   );
