@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <h1>
+    <h1 data-testid='about-test'>
       About123
     </h1>
   );
